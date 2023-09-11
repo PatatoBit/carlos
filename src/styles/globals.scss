@@ -1,0 +1,45 @@
+@use 'variables';
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+	font-family: 'DM Sans', 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+html,
+body {
+	background: variables.$background;
+}
+
+h1 {
+	font-size: 49px;
+}
+
+h2 {
+	font-size: 39px;
+}
+
+h3 {
+	font-size: 31px;
+}
+
+p {
+	font-size: 16px;
+}
+
+p .sub {
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+.wrapper {
+	max-width: 65rem;
+	margin-inline: auto;
+
+	padding: 2rem;
+}

@@ -3,6 +3,8 @@
 ## Todo
 
 - [x] Landing Page
+  - [ ] Programming hobby Github link
+  - [ ] Art hobby Instagram link
 - [X] Portfolio page
   - [ ] Project card
   - [ ] Activity card

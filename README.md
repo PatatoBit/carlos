@@ -2,7 +2,7 @@
 
 ## Todo
 
-- [ ] Landing Page
+- [x] Landing Page
 - [ ] Portfolio page
 - [ ] Navbar
 - [ ] Contacts form

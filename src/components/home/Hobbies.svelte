@@ -22,7 +22,7 @@
 		<Hobby
 			url="/hobbies/3d.png"
 			title="3D"
-			description="I love using blender to create 3D models. Usually I do it for my web projects. But sometimes I use it as a reference for my art too."
+			description="I love using Blender to create 3D models. Usually I do it for my web projects. But sometimes I use it as a reference for my art too."
 		/>
 
 		<Hobby

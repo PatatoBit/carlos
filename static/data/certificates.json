@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Cambridge",
+		"description": "I studied and completed Cambridge's International Course",
+		"image": ""
+	},
+	{
+		"name": "CEFR C2",
+		"description": "I scored 79/100 on EF Set English Exam as Proficient in English",
+		"image": ""
+	},
+	{
+		"name": "Leagues of Code",
+		"description": "I completed Leagues of Code course and got a scholarship",
+		"image": ""
+	},
+	{
+		"name": "Three.js Journey",
+		"description": "Completed and got certified on a course that teaches you all about 3D in websites.",
+		"image": ""
+	}
+]

@@ -3,6 +3,11 @@
 ## Todo
 
 - [x] Landing Page
-- [ ] Portfolio page
+- [X] Portfolio page
+  - [ ] Project card
+  - [ ] Activity card
+  - [ ] Certificate card
+  - [ ] Tags changing
 - [ ] Navbar
+- [ ] OG Metatags
 - [ ] Contacts form

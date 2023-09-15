@@ -1,3 +1,10 @@
+<script lang="ts">
+	import ProjectCard from '../../components/portfolio/ProjectCard.svelte';
+
+	export let data;
+	console.table(data.body);
+</script>
+
 <div class="wrapper">
 	<div class="header">
 		<h1>Pat's Portfolio</h1>
@@ -11,7 +18,11 @@
 	</div>
 
 	<h2>Projects</h2>
-	<div class="projects" />
+	<div class="projects">
+		{#each data.body.projects as project}
+			<ProjectCard name={project.name} description={project.description} url={project.url} />
+		{/each}
+	</div>
 
 	<h2>Activities</h2>
 	<div class="activities" />
@@ -36,5 +47,13 @@
 
 	.header {
 		text-align: center;
+	}
+
+	.projects {
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
+		/* flex-wrap: wrap; */
+		/* padding-block: 1rem; */
 	}
 </style>

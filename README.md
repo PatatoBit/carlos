@@ -6,7 +6,8 @@
   - [ ] Programming hobby Github link
   - [ ] Art hobby Instagram link
 - [X] Portfolio page
-  - [ ] Project card
+  - [X] Project card
+    - Add category tags
   - [ ] Activity card
   - [ ] Certificate card
   - [ ] Tags changing

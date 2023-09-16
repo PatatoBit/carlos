@@ -42,8 +42,12 @@ p .sub {
 }
 
 .wrapper {
+	display: flex;
+	flex-direction: column;
 	max-width: 65rem;
+	min-height: 100vh;
 	margin-inline: auto;
 
 	padding: 2rem;
+	// gap: 0;
 }

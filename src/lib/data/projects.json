@@ -2,16 +2,19 @@
 	{
 		"name": "This Website",
 		"description": "Yes! What you're seeing right now is made with SvelteKit by me! Patato.",
-		"url": "https://github.com/PatatoBit/carlos"
+		"url": "https://github.com/PatatoBit/carlos",
+		"tags": []
 	},
 	{
 		"name": "BotsOfCode",
 		"description": "A Discord bot for managing a coding institution's Discord server",
-		"url": "https://github.com/Leagues-of-Code-TH/botsofcode"
+		"url": "https://github.com/Leagues-of-Code-TH/botsofcode",
+		"tags": []
 	},
 	{
 		"name": "ITS Box",
 		"description": "A website for students in a school to vote book into their library.",
-		"url": "https://its-box.vercel.app"
+		"url": "https://its-box.vercel.app",
+		"tags": []
 	}
 ]

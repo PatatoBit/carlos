@@ -17,18 +17,24 @@
 		</ul>
 	</div>
 
-	<h2>Projects</h2>
-	<div class="projects">
-		{#each data.body.projects as project}
-			<ProjectCard name={project.name} description={project.description} url={project.url} />
-		{/each}
+	<div>
+		<h2>Projects</h2>
+		<div class="projects">
+			{#each data.body.projects as project}
+				<ProjectCard name={project.name} description={project.description} url={project.url} />
+			{/each}
+		</div>
 	</div>
 
-	<h2>Activities</h2>
-	<div class="activities" />
+	<div>
+		<h2>Activities</h2>
+		<div class="activities" />
+	</div>
 
-	<h2>Certificates</h2>
-	<div class="certificates" />
+	<div>
+		<h2>Certificates</h2>
+		<div class="certificates" />
+	</div>
 </div>
 
 <style lang="scss">
@@ -45,6 +51,10 @@
 		font-weight: 700;
 	}
 
+	.wrapper {
+		gap: 2rem;
+	}
+
 	.header {
 		text-align: center;
 	}
@@ -53,7 +63,10 @@
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
-		/* flex-wrap: wrap; */
-		/* padding-block: 1rem; */
+
+		/* white-space: nowrap; */
+		scroll-snap-type: x mandatory;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
 	}
 </style>

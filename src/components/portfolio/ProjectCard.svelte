@@ -26,7 +26,7 @@
 		border-radius: 0.5rem;
 		padding: 1rem;
 
-		scroll-snap-align: center;
+		scroll-snap-align: start;
 
 		width: 300px;
 

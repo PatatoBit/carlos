@@ -5,8 +5,8 @@
 	console.table(data.body);
 </script>
 
-<div class="wrapper">
-	<div class="header">
+<main class="wrapper">
+	<section class="header">
 		<h1>Pat's Portfolio</h1>
 		<p>A collection of my works and achievements</p>
 
@@ -15,27 +15,27 @@
 			<li>Code</li>
 			<li>Art</li>
 		</ul>
-	</div>
+	</section>
 
-	<div>
+	<section>
 		<h2>Projects</h2>
 		<div class="projects">
 			{#each data.body.projects as project}
 				<ProjectCard name={project.name} description={project.description} url={project.url} />
 			{/each}
 		</div>
-	</div>
+	</section>
 
-	<div>
+	<section>
 		<h2>Activities</h2>
 		<div class="activities" />
-	</div>
+	</section>
 
-	<div>
+	<section>
 		<h2>Certificates</h2>
 		<div class="certificates" />
-	</div>
-</div>
+	</section>
+</main>
 
 <style lang="scss">
 	ul {
@@ -62,7 +62,7 @@
 	.projects {
 		display: flex;
 		flex-direction: row;
-		gap: 2rem;
+		gap: 1rem;
 
 		/* white-space: nowrap; */
 		scroll-snap-type: x mandatory;

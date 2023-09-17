@@ -8,7 +8,7 @@
 <div class="card">
 	{#if image}
 		<a href={url} target="_blank">
-			<img src={image} alt={name} />
+			<img src={image} alt={name} loading="lazy" />
 		</a>
 	{/if}
 

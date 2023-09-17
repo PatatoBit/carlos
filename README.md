@@ -6,10 +6,13 @@
   - [ ] Programming hobby Github link
   - [ ] Art hobby Instagram link
 - [X] Portfolio page
+  - [ ] Carousel
+  - [ ] Lazy loading
   - [X] Project card
     - Add category tags
-  - [ ] Activity card
+  - [X] Activity card
   - [ ] Certificate card
+    - [ ] Background image + blur + unblur on hover
   - [ ] Tags changing
 - [ ] Navbar
 - [ ] OG Metatags

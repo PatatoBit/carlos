@@ -30,6 +30,7 @@
 
 	img {
 		width: 100%;
+		aspect-ratio: 3/2;
 		object-fit: cover;
 	}
 </style>

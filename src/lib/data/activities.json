@@ -14,13 +14,13 @@
 	{
 		"name": "Vice President at ITS",
 		"description": "I was elected as Vice President at Intertots Trillingual School",
-		"image": "https://baconmockup.com/300/200",
+		"image": "/activities/vp.jpg",
 		"url": ""
 	},
 
 	{
-		"name": "Intern at Leagues of Code",
-		"description": "From Oct 2020 - APril 2021",
+		"name": "Chicken overflow test",
+		"description": "Not real just testing",
 		"image": "https://baconmockup.com/300/200",
 		"url": ""
 	}

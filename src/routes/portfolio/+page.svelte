@@ -43,7 +43,7 @@
 
 	<section>
 		<h3>Certificates</h3>
-		<div class="carousel" />
+		<div class="carousel"></div>
 	</section>
 </main>
 

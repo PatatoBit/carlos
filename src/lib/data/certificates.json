@@ -7,7 +7,8 @@
 	{
 		"name": "CEFR C2",
 		"description": "I scored 79/100 on EF Set English Exam as Proficient in English",
-		"image": ""
+		"image": "/certificates/c2.png",
+		"url": "https://www.efset.org/cert/y8N4fp"
 	},
 	{
 		"name": "Leagues of Code",
@@ -17,6 +18,7 @@
 	{
 		"name": "Three.js Journey",
 		"description": "Completed and got certified on a course that teaches you all about 3D in websites.",
-		"image": ""
+		"image": "/certificates/threejsjourney.png",
+		"url": "https://threejs-journey.com/certificate/view/22056"
 	}
 ]

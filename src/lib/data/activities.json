@@ -6,16 +6,16 @@
 		"url": "https://www.facebook.com/profile.php?id=100083204588993"
 	},
 	{
-		"name": "Participated in Codegoda",
-		"description": "A coding competition for coders by Agoda",
-		"image": "/activities/codegoda.jpg",
-		"url": "https://unstop.com/certificate-preview/9edaa0d9-5825-442d-a285-43c8355c168f?utm_campaign="
-	},
-	{
 		"name": "Vice President at ITS",
 		"description": "I was elected as Vice President at Intertots Trillingual School",
 		"image": "/activities/vp.jpg",
 		"url": ""
+	},
+	{
+		"name": "Participated in Codegoda",
+		"description": "A coding competition for coders by Agoda",
+		"image": "/activities/codegoda.jpg",
+		"url": "https://unstop.com/certificate-preview/9edaa0d9-5825-442d-a285-43c8355c168f?utm_campaign="
 	},
 
 	{

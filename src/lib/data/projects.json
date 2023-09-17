@@ -16,5 +16,25 @@
 		"description": "A website for students in a school to vote book into their library.",
 		"url": "https://its-box.vercel.app",
 		"tags": []
+	},
+	{
+		"name": "Windowie",
+		"description": "A bot that takes a picture of my window hourly and post it in a chat",
+		"url": "https://github.com/PatatoBit/Windowie"
+	},
+	{
+		"name": "PadoruBot",
+		"description": "A bot that sends padoru gifs in chat randomly for christmas",
+		"url": "https://github.com/PatatoBit/PadoruBot"
+	},
+	{
+		"name": "DailyQuote",
+		"description": "A bot that tweets out random quotes daily",
+		"url": "twitter.com/PatatoBot"
+	},
+	{
+		"name": "LightTouch",
+		"description": "A virtual lamp for connecting long-distance relationships",
+		"url": "https://github.com/PatatoBit/LightTouch"
 	}
 ]

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ActivitiyCard from '../../components/portfolio/ActivitiyCard.svelte';
+	import CertificateCard from '../../components/portfolio/CertificateCard.svelte';
 	import ProjectCard from '../../components/portfolio/ProjectCard.svelte';
 
 	export let data;
@@ -11,20 +12,11 @@
 		<h1>Pat's Portfolio</h1>
 		<p>A collection of my works and achievements</p>
 
-		<!-- <ul>
+		<ul>
 			<li>Academic</li>
 			<li>Code</li>
 			<li>Art</li>
-		</ul> -->
-	</section>
-
-	<section>
-		<h3>Projects</h3>
-		<div class="carousel">
-			{#each data.body.projects as project}
-				<ProjectCard name={project.name} description={project.description} url={project.url} />
-			{/each}
-		</div>
+		</ul>
 	</section>
 
 	<section>
@@ -40,10 +32,28 @@
 			{/each}
 		</div>
 	</section>
+	<section>
+		<h3>Projects</h3>
+		<div class="carousel">
+			{#each data.body.projects as project}
+				<ProjectCard name={project.name} description={project.description} url={project.url} />
+			{/each}
+		</div>
+	</section>
 
 	<section>
 		<h3>Certificates</h3>
-		<div class="carousel"></div>
+		<div class="carousel">
+			{#each data.body.certificates as certificate}
+				<!-- content here -->
+				<CertificateCard
+					name={certificate.name}
+					description={certificate.description}
+					image={certificate.image}
+					url={certificate.url}
+				/>
+			{/each}
+		</div>
 	</section>
 </main>
 

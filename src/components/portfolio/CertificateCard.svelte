@@ -30,6 +30,8 @@
 		justify-content: center;
 		align-items: center;
 
+		scroll-snap-align: start;
+
 		padding: 2rem;
 
 		min-width: 300px;

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ActivitiyCard from '../../components/portfolio/ActivitiyCard.svelte';
 	import ProjectCard from '../../components/portfolio/ProjectCard.svelte';
 
 	export let data;
@@ -10,16 +11,16 @@
 		<h1>Pat's Portfolio</h1>
 		<p>A collection of my works and achievements</p>
 
-		<ul>
+		<!-- <ul>
 			<li>Academic</li>
 			<li>Code</li>
 			<li>Art</li>
-		</ul>
+		</ul> -->
 	</section>
 
 	<section>
-		<h2>Projects</h2>
-		<div class="projects">
+		<h3>Projects</h3>
+		<div class="carousel">
 			{#each data.body.projects as project}
 				<ProjectCard name={project.name} description={project.description} url={project.url} />
 			{/each}
@@ -27,13 +28,22 @@
 	</section>
 
 	<section>
-		<h2>Activities</h2>
-		<div class="activities" />
+		<h3>Activities</h3>
+		<div class="carousel">
+			{#each data.body.activities as activity}
+				<ActivitiyCard
+					name={activity.name}
+					description={activity.description}
+					image={activity.image}
+					url={activity.url}
+				/>
+			{/each}
+		</div>
 	</section>
 
 	<section>
-		<h2>Certificates</h2>
-		<div class="certificates" />
+		<h3>Certificates</h3>
+		<div class="carousel" />
 	</section>
 </main>
 
@@ -59,14 +69,14 @@
 		text-align: center;
 	}
 
-	.projects {
+	.carousel {
 		display: flex;
 		flex-direction: row;
 		gap: 1rem;
 
 		/* white-space: nowrap; */
-		scroll-snap-type: x mandatory;
 		overflow-x: auto;
+		scroll-snap-type: x mandatory;
 		-webkit-overflow-scrolling: touch;
 	}
 </style>

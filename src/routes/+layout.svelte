@@ -1,5 +1,7 @@
 <script lang="ts">
-	import "../styles/globals.scss"
+	import Navbar from '../components/home/Navbar.svelte';
+	import '../styles/globals.scss';
 </script>
 
+<Navbar />
 <slot />

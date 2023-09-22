@@ -48,6 +48,8 @@
 
 		text-align: center;
 
+		overflow: hidden;
+
 		&:hover {
 			.image {
 				filter: blur(0);

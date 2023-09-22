@@ -6,6 +6,11 @@
 		"tags": []
 	},
 	{
+		"name": "3D Room",
+		"description": "My room remade in 3D! Made with Blender and Three.js",
+		"url": "https://patato-room.vercel.app/"
+	},
+	{
 		"name": "BotsOfCode",
 		"description": "A Discord bot for managing a coding institution's Discord server",
 		"url": "https://github.com/Leagues-of-Code-TH/botsofcode",

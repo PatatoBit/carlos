@@ -4,7 +4,7 @@
 
 <div class="wrapper">
 	<h2>I'm into...</h2>
-	<p class="sub" style="margin-bottom: 5rem;">here are my interests and hobbies...</p>
+	<p class="sub" style="margin-bottom: 5rem;">here are some of my interests and hobbies...</p>
 
 	<div class="hobbies">
 		<Hobby

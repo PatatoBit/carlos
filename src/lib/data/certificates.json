@@ -1,24 +1,24 @@
 [
 	{
-		"name": "Cambridge",
-		"description": "I studied and completed Cambridge's International Course",
-		"image": ""
-	},
-	{
 		"name": "CEFR C2",
 		"description": "I scored 79/100 on EF Set English Exam as Proficient in English",
 		"image": "/certificates/c2.png",
 		"url": "https://www.efset.org/cert/y8N4fp"
 	},
 	{
-		"name": "Leagues of Code",
-		"description": "I completed Leagues of Code course and got a scholarship",
-		"image": ""
-	},
-	{
 		"name": "Three.js Journey",
 		"description": "Completed and got certified on a course that teaches you all about 3D in websites.",
 		"image": "/certificates/threejsjourney.png",
 		"url": "https://threejs-journey.com/certificate/view/22056"
+	},
+	{
+		"name": "Cambridge",
+		"description": "I studied and completed Cambridge's International Course",
+		"image": ""
+	},
+	{
+		"name": "Leagues of Code",
+		"description": "I completed Leagues of Code course and got a scholarship",
+		"image": ""
 	}
 ]

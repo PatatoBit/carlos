@@ -4,7 +4,6 @@
 	import ProjectCard from '../../components/portfolio/ProjectCard.svelte';
 
 	export let data;
-	console.table(data.body);
 </script>
 
 <main class="wrapper">

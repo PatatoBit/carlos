@@ -6,22 +6,21 @@
 		"url": "https://www.facebook.com/profile.php?id=100083204588993"
 	},
 	{
-		"name": "Vice President at ITS",
-		"description": "I was elected as Vice President at Intertots Trillingual School",
-		"image": "/activities/vp.jpg",
-		"url": "https://www.facebook.com/photo/?fbid=744948480757174&set=a.744547440797278"
+		"name": "Student President at ITS",
+		"description": "I was elected as Vice President and later President at Intertots Trillingual School",
+		"image": "/activities/president.jpg",
+		"url": "https://www.facebook.com/intertotsschool/posts/pfbid02WALnpA5xiZHMt2ZmStdZopW1wpji1zYDswNSwxKatp6thnGUQPTgMa52jT6LARixl"
+	},
+	{
+		"name": "Music",
+		"description": "I can play the piano and guitar and a bit of drums.",
+		"image": "/activities/music.jpg",
+		"url": "https://www.facebook.com/intertotsschool/posts/pfbid02SFx2G2XACz7V8wep2wZcsLEDrxoJfvgvwyVBXEFJziPt5fk7V4ASnunabwCj3cHGl"
 	},
 	{
 		"name": "Participated in Codegoda",
 		"description": "A coding competition for coders by Agoda",
 		"image": "/activities/codegoda.jpg",
 		"url": "https://unstop.com/certificate-preview/9edaa0d9-5825-442d-a285-43c8355c168f?utm_campaign="
-	},
-
-	{
-		"name": "Chicken overflow test",
-		"description": "Not real just testing",
-		"image": "https://baconmockup.com/300/200",
-		"url": ""
 	}
 ]

@@ -7,7 +7,7 @@
 
 {#if url}
 	<a href={url} target="_blank">
-		<div class="card">
+		<div class="card simple-border">
 			<div class="image" style="background-image: url({image})"></div>
 
 			<div class="card-content">
@@ -18,7 +18,7 @@
 		</div>
 	</a>
 {:else}
-	<div class="card">
+	<div class="card simple-border">
 		<div class="image" style="background-image: url({image})"></div>
 
 		<div class="card-content">

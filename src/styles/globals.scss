@@ -52,3 +52,13 @@ p .sub {
 	padding: 2rem;
 	// gap: 0;
 }
+
+.simple-border {
+	border: 1px solid #c0c0c0;
+	border-radius: 0.5rem;
+	transition: border 0.2s ease-in-out;
+
+	&:hover {
+		border: 1px solid #1e1e1e;
+	}
+}

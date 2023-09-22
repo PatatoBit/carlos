@@ -4,7 +4,7 @@
 	export let url: string;
 </script>
 
-<a href={url} target="_blank">
+<a class="simple-border" href={url} target="_blank">
 	<div class="card">
 		<p><strong>{name}</strong></p>
 		<p>{description}</p>
@@ -22,16 +22,10 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.5rem;
-		border: 1px solid #c0c0c0;
-		border-radius: 0.5rem;
 		padding: 1rem;
 
 		scroll-snap-align: start;
 
 		width: 300px;
-
-		& :hover {
-			border-color: #1e1e1e;
-		}
 	}
 </style>

@@ -1,7 +1,9 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import ActivitiyCard from '../../components/portfolio/ActivitiyCard.svelte';
 	import CertificateCard from '../../components/portfolio/CertificateCard.svelte';
 	import ProjectCard from '../../components/portfolio/ProjectCard.svelte';
+	import Carousel from 'svelte-carousel';
 
 	export let data;
 </script>
@@ -20,16 +22,21 @@
 
 	<section>
 		<h3>Activities</h3>
-		<div class="carousel">
-			{#each data.body.activities as activity}
-				<ActivitiyCard
-					name={activity.name}
-					description={activity.description}
-					image={activity.image}
-					url={activity.url}
-				/>
-			{/each}
-		</div>
+		<!-- <div class="carousel"> -->
+		{#if browser}
+			<Carousel particlesToShow={3} particlesToScroll={1} arrows={false}>
+				{#each data.body.activities as activity}
+					<ActivitiyCard
+						name={activity.name}
+						description={activity.description}
+						image={activity.image}
+						url={activity.url}
+					/>
+				{/each}
+			</Carousel>
+			<!-- content here -->
+		{/if}
+		<!-- </div> -->
 	</section>
 	<section>
 		<h3>Projects</h3>

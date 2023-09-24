@@ -1,11 +1,17 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { onMount } from 'svelte';
 	import ActivitiyCard from '../../components/portfolio/ActivitiyCard.svelte';
 	import CertificateCard from '../../components/portfolio/CertificateCard.svelte';
 	import ProjectCard from '../../components/portfolio/ProjectCard.svelte';
 	import Carousel from 'svelte-carousel';
 
 	export let data;
+
+	let isMobile: boolean;
+	onMount(() => {
+		isMobile = window.innerWidth < 768;
+	});
 </script>
 
 <main class="wrapper">
@@ -24,7 +30,7 @@
 		<h3>Activities</h3>
 		<!-- <div class="carousel"> -->
 		{#if browser}
-			<Carousel particlesToShow={3} particlesToScroll={1} arrows={false}>
+			<Carousel particlesToShow={isMobile ? 2 : 3} particlesToScroll={1} swiping autoplay>
 				{#each data.body.activities as activity}
 					<ActivitiyCard
 						name={activity.name}
@@ -40,11 +46,11 @@
 	</section>
 	<section>
 		<h3>Projects</h3>
-		<div class="carousel">
+		<Carousel particlesToShow={3} particlesToScroll={2}>
 			{#each data.body.projects as project}
 				<ProjectCard name={project.name} description={project.description} url={project.url} />
 			{/each}
-		</div>
+		</Carousel>
 	</section>
 
 	<section>

@@ -26,6 +26,8 @@
 		flex-shrink: 0;
 
 		scroll-snap-align: start;
+
+		padding: 1rem;
 	}
 
 	img {

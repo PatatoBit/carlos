@@ -23,6 +23,7 @@
 		flex-direction: column;
 		gap: 0.5rem;
 		padding: 1rem;
+		margin: 0.5rem;
 
 		scroll-snap-align: start;
 
